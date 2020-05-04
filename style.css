@@ -3,6 +3,7 @@
 a {
     color: #222;
     font-weight: 700;
+    font-style: oblique;
     transition: color 0.2s ease-in-out;
 }
 
@@ -61,7 +62,7 @@ a {
 /* Timeline */
 
 .timeline a {
-    color: #666;
+    color: #444;
 }
 
 .timeline a:hover {
