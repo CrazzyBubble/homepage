@@ -1,13 +1,9 @@
 /* Starter decorations */
 
 a {
-    color: black;
+    color: #222;
     font-weight: 700;
-}
-
-a:hover {
     transition: color 0.2s ease-in-out;
-    color: rgb(226, 73, 73);
 }
 
 
@@ -23,6 +19,10 @@ a:hover {
 .oter_name {
     font-size: 1.2em;
     font-weight: 500;
+}
+
+.citation a:hover {
+    color: #db3737;
 }
 
 
@@ -55,4 +55,16 @@ a:hover {
 
 .instagram:hover * {
     color: #d52e8c;
+}
+
+
+/* Timeline */
+
+.timeline a {
+    color: #666;
+}
+
+.timeline a:hover {
+    color: #db3737;
+    text-shadow: 0px 0px 6px #f79c9c;
 }
