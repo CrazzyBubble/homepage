@@ -1,9 +1,8 @@
 /* Starter decorations */
 
 a {
-    color: #222;
-    font-weight: 700;
-    font-style: oblique;
+    color: blue;
+    font-weight: 500;
     transition: color 0.2s ease-in-out;
 }
 
@@ -30,7 +29,8 @@ a {
 /* Links design */
 
 .contacts li a {
-    font-weight: 300;
+    font-style: normal;
+    font-weight: 400;
     transition: none;
 }
 
@@ -61,11 +61,41 @@ a {
 
 /* Timeline */
 
-.timeline a {
-    color: #444;
-}
-
 .timeline a:hover {
     color: #db3737;
     text-shadow: 0px 0px 6px #f79c9c;
+}
+
+ul>li:before {
+    content: "●";
+    font-family: "Arial";
+    float: left;
+    width: 1.5em;
+    margin-left: -1.5em;
+    text-align: center;
+}
+
+ol.inverted>li:before {
+    background: black;
+    color: white;
+    font-weight: normal;
+}
+
+ol>li:before {
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+    float: left;
+    width: 1rem;
+    border-radius: 0.25em;
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(-1.5rem + 0.5rem / 2);
+    height: 1rem;
+    margin-top: calc((1.4285rem - 1rem) / 2);
 }
