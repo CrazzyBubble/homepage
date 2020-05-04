@@ -1,0 +1,58 @@
+/* Starter decorations */
+
+a {
+    color: black;
+    font-weight: 700;
+}
+
+a:hover {
+    transition: color 0.2s ease-in-out;
+    color: rgb(226, 73, 73);
+}
+
+
+/* Avatar and name design */
+
+.avatar {
+    width: auto;
+    height: auto;
+    padding: 20px 5px 0px 5px;
+    align-items: center;
+}
+
+.oter_name {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+/* Links design */
+
+.contacts li a {
+    font-weight: 300;
+    transition: none;
+}
+
+.contacts li a * {
+    transition: color 0.2s ease-in-out;
+}
+
+.contacts li a i {
+    font-size: 1.2em;
+}
+
+.facebook:hover * {
+    color: #273a91;
+}
+
+.mail:hover * {
+    color: #d1b518;
+}
+
+.twitter:hover * {
+    color: #34a7ca;
+}
+
+.instagram:hover * {
+    color: #d52e8c;
+}
