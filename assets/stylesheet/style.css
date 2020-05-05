@@ -10,9 +10,9 @@ a {
 /* Avatar and name design */
 
 .avatar {
-    width: auto;
-    height: auto;
-    padding: 20px 5px 0px 5px;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .mail:hover * {
-    color: #d1b518;
+    color: #d4b60b;
 }
 
 .twitter:hover * {

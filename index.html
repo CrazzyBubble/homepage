@@ -12,7 +12,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet' />
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
     <title>Résumé</title>
 </head>
 
@@ -33,7 +33,7 @@
                                 <!-- Name and Links -->
                                 <div class="sixteen wide column">
                                     <h1 class="name">Ryu Hoshi</h1>
-                                    <div class="oter_name">(リュウ Ryū)</div>
+                                    <span class="oter_name">(リュウ Ryū)</span>
                                     <ul class="contacts">
                                         <li>
                                             <a href="https://www.facebook.com/profile.php?id=100004808958030" rel="author" class="facebook">
@@ -253,12 +253,23 @@
                                     </ol>
                                 </li>
                             </ul>
+                            <!-- Life lesson -->
                             <h3>LIFE LESSON</h3>
-                            <p>You must defeat Sheng Long to stand a chance.</p>
+                            <div>
+                                <p>You must defeat Sheng Long to stand a chance.
+                                    <button id="you-must" class="audio">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg>
+                                        <audio preload="none">
+                                            <source src="./assets/sounds/you-must.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </button>
+                                </p>
+                            </div>
                         </div>
                         <!-- Start other information -->
                         <div class="six wide column">
                             <section>
+                                <!-- Lang -->
                                 <h3>Languages</h3>
                                 <p class="tags small">
                                     <span class="language" lang="jp">&#x1f1ef;&#x1f1f5; JAPANESE</span>
@@ -310,34 +321,34 @@
                                 </ul>
                             </section>
                             <section>
+                                <!-- Skills -->
                                 <h3>Skills</h3>
                                 <p class="tags small">
                                     <a class="karate" style="color:#ff4646;">KARATE</a> ENERGY ATTACK SHORYUKEN WALKING BAREFOOT PLAYING VIDEOGAMES DOING BURGERS MASHING POTATOES COPYWRITING ACTING VOICEOVERS </p>
                                 <iframe id="ytplayer" class="hidden" src="https://www.youtube.com/embed/MPSl9zv4uUA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </section>
                             <section>
+                                <!-- Character -->
                                 <h3>Character</h3>
                                 <p class="tags small">
                                     NOBLE DIRECT BOLD CONFIDENT DARING SCHIZOPHRENIC DRAMATIC PERSUASIVE IMMEDIATE WISE
                                 </p>
                             </section>
                             <section>
+                                <!-- Likes -->
                                 <h3>Likes&#x1f603;</h3>
                                 <p class="tags small">
                                     GI VEGETABLES BLOOD SMALL MARSHMELLOWS RED COLOR KILLED ENEMY
-                                    <button id="meh"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> MEH
-                                        <audio preload="none">
-                                            <source src="./assets/sounds/meh.mp3" type="audio/mpeg">
-                                        </audio>
-                                    </button>
                                 </p>
                             </section>
                             <section>
+                                <!-- Dislikes -->
                                 <h3>Dislikes&#x1f61e;</h3>
                                 <p class="tags small">
                                     BISONS GHOSTS SMARTPHONES SMELL OF SEAFOOD BARBER SHOPS SLEEVES</p>
                             </section>
                             <section>
+                                <!-- Wants -->
                                 <h3>Wants&#x1f97a;</h3>
                                 <p class="tags small bulleted">
                                     <span class="tag">BE FIT</span>
@@ -348,6 +359,7 @@
                                 </p>
                             </section>
                             <section>
+                                <!-- Education -->
                                 <h3>Education and live</h3>
                                 <ul class="timeline">
                                     <li>
@@ -364,19 +376,7 @@
             </div>
         </article>
     </main>
-    <script type="text/javascript">
-        var skills = document.querySelector(".karate");
-        skills.addEventListener("click", function() {
-            var video = document.querySelector("#ytplayer");
-            if (!video.classList.contains("hidden")) {
-                video.classList.add("hidden");
-                player.stopVideo();
-            } else {
-                video.classList.remove("hidden");
-                player.playVideo();
-            }
-        });
-    </script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
