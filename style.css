@@ -99,3 +99,14 @@ ol>li:before {
     height: 1rem;
     margin-top: calc((1.4285rem - 1rem) / 2);
 }
+
+
+/* Other content  */
+
+.video_player {
+    border: 0px;
+}
+
+.hidden {
+    display: none;
+}
