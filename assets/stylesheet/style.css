@@ -74,7 +74,7 @@ a {
 
 ul>li:before {
     content: "●";
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
     width: 1.5em;
     margin-left: -1.5em;
@@ -116,7 +116,7 @@ ol>li:before {
 }
 
 .video_player {
-    border: 0px;
+    border: none;
 }
 
 .hidden {
