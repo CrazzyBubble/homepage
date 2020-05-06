@@ -22,7 +22,7 @@ a {
     box-shadow: 0px 0px 40px 3px #db3737;
 }
 
-.oter_name {
+.other_name {
     font-size: 1.2em;
     font-weight: 500;
 }
@@ -109,10 +109,54 @@ ol>li:before {
 
 /* Other content  */
 
+.karate {
+    cursor: pointer;
+    height: 1em;
+    color: #ff4646;
+}
+
 .video_player {
     border: 0px;
 }
 
 .hidden {
     display: none;
+}
+
+.change-color {
+    content: " ";
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0.27em;
+    height: 0.88em;
+    width: 0.88em;
+    vertical-align: top;
+    position: relative;
+    border: none;
+}
+
+.yellow {
+    background-color: #d4b60b;
+}
+
+.green {
+    background-color: #0ad125;
+}
+
+.purpure {
+    background-color: #bb0743;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.midnightblue {
+    background-color: midnightblue;
+}
+
+@media only screen and (max-width: 767px) {
+    .other_name {
+        text-align: center;
+    }
 }
