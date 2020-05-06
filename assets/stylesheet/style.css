@@ -1,0 +1,162 @@
+/* Starter decorations */
+
+a {
+    color: blue;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+
+/* Avatar and name design */
+
+.avatar {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    align-items: center;
+    transition: 1.5s;
+}
+
+.avatar:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 40px 3px #db3737;
+}
+
+.other_name {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.citation a:hover {
+    color: #db3737;
+}
+
+
+/* Links design */
+
+.contacts li a {
+    font-style: normal;
+    font-weight: 400;
+    transition: none;
+}
+
+.contacts li a * {
+    transition: color 0.2s ease-in-out;
+}
+
+.contacts li a i {
+    font-size: 1.2em;
+}
+
+.facebook:hover * {
+    color: #273a91;
+}
+
+.mail:hover * {
+    color: #d4b60b;
+}
+
+.twitter:hover * {
+    color: #34a7ca;
+}
+
+.instagram:hover * {
+    color: #d52e8c;
+}
+
+
+/* Timeline */
+
+.timeline a:hover {
+    color: #db3737;
+    text-shadow: 0px 0px 6px #f79c9c;
+}
+
+ul>li:before {
+    content: "●";
+    font-family: "Arial";
+    float: left;
+    width: 1.5em;
+    margin-left: -1.5em;
+    text-align: center;
+}
+
+ol.inverted>li:before {
+    background: black;
+    color: white;
+    font-weight: normal;
+}
+
+ol>li:before {
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+    float: left;
+    width: 1rem;
+    border-radius: 0.25em;
+    background: transparent;
+    color: inherit;
+    font-weight: bold;
+    font-size: 0.7em;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(-1.5rem + 0.5rem / 2);
+    height: 1rem;
+    margin-top: calc((1.4285rem - 1rem) / 2);
+}
+
+
+/* Other content  */
+
+.karate {
+    cursor: pointer;
+    height: 1em;
+    color: #ff4646;
+}
+
+.video_player {
+    border: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.change-color {
+    content: " ";
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0.27em;
+    height: 0.88em;
+    width: 0.88em;
+    vertical-align: top;
+    position: relative;
+    border: none;
+}
+
+.yellow {
+    background-color: #d4b60b;
+}
+
+.green {
+    background-color: #0ad125;
+}
+
+.purpure {
+    background-color: #bb0743;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.midnightblue {
+    background-color: midnightblue;
+}
+
+@media only screen and (max-width: 767px) {
+    .other_name {
+        text-align: center;
+    }
+}
